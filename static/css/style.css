@@ -1,0 +1,28 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #211d1c;
+    background-color: #fafafa;
+    background: url('/static/img/bg.jpg') no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: regular;
+}
+
+.btn-vn{
+    background-color: #211d1c;
+    color: white;
+    border-radius: 0;
+    transition: all ease-in-out 500ms;   
+}
+.btn-vn:hover{
+    color: white;
+    box-shadow: 1px 3px 12px 5px rgba(0,0,0,0.3)
+}
+/* MENU */
+.nav .nav-link{
+    color: white !important;
+    font-size: 17px;
+}
